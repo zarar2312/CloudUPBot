@@ -1,7 +1,7 @@
 # CloudUP
 [![Discord Bots](https://discordbots.org/api/widget/status/686185592899633200.svg)](https://discordbots.org/bot/686185592899633200)  [![Discord Bots](https://discordbots.org/api/widget/servers/686185592899633200.svg)](https://discordbots.org/bot/686185592899633200)  [![Discord Bots](https://discordbots.org/api/widget/lib/686185592899633200.svg)](https://discordbots.org/bot/686185592899633200)
 
-`İşte CloudUP Bot için bildiri! Bir sorun göndermekten veya çekme talebinde bulunmaktan çekinmeyin!`
+`İşte CloudUP Bot için bildir! Bir sorun var ve ya talebinde bulunmaktan çekinmeyin!`
 
 ## License
 
