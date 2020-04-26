@@ -4,6 +4,8 @@ const CloudUP = new Client({ disableEveryone: true });
 
 const { CommandHandler } = require("djs-commands");// Komut Modülü
 
+require('dotenv').config();
+
 const CH = new CommandHandler({
     folder: __dirname + "/CloudUP-Commands/",
   timeout: 1.4,
@@ -30,6 +32,8 @@ CloudUP.on("message", async (message) => {
   console.log(`${message.author.tag} adlı kullanıcı ${command} adlı kodu kullandı! Komutu kullandığı kanal: ${message.channel.name} || Sunucu: ${message.guild.name}`)
 });
 
-
+CloudUP.on('ready', () => {
+console.log(`${CloudUP.user.tag} Aktif halde.`)
+CloudUP.user.setStatus('online').catch(console.error)});
 
 CloudUP.login(process.env.CLIENT_TOKEN).catch(console.error);
