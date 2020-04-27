@@ -12,10 +12,10 @@
   "version": "0.0.37",
   "description": "CloudUP Bot",
   "private": true,
-  "main": "index.js",
+  "main": "CloudUP.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node CloudUP.js"
   },
     "engines": {
     "node": "10.x",
