@@ -3,7 +3,7 @@
 
 `İşte CloudUP Bot için bildir! Bir sorun var ve ya talebinde bulunmaktan çekinmeyin!`
 
-`Discord.js olarak sunulmuştur. Gerçeği ile alakası olmamaktadır. Python olarak sunulmaktadır.`
+`Discord.js olarak sunulmuştur. Gerçeği ile alakası olmamaktadır. Resmi bot Python olarak sunulmaktadır.`
 
 
 ## License
