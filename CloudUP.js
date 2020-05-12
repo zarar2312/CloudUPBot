@@ -1,10 +1,10 @@
-const { Client, RichEmbed } = require("discord.js")
+const { Client, RichEmbed } = require("discord.js");
 
-const CloudUP = new Client({ disableEveryone: true })// Discorda bağlanırken sorun yaşamaması için :).
+const CloudUP = new Discord.Client({ disableEveryone: true, disabledEvents: ["TYPING_START"] });// Discorda bağlanırken sorun yaşamaması için :).
 
 const { CommandHandler } = require("djs-commands");// Komut Modülü
 
-require('dotenv').config()// .env içindir. Token & Database için çok önemli modüldür. Gizli kılar.
+require('dotenv').config();// .env içindir. Token & Database için çok önemli modüldür. Gizli kılar.
 
 const CH = new CommandHandler({
     folder: __dirname + "/CloudUP-Commands/",
