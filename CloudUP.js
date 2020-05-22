@@ -1,3 +1,4 @@
+const Discord = require("discord.js");
 const { Client, RichEmbed } = require("discord.js");
 
 const CloudUP = new Discord.Client({ disableEveryone: true, disabledEvents: ["TYPING_START"] });// Discorda bağlanırken sorun yaşamaması için :).
