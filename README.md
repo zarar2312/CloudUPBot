@@ -3,7 +3,7 @@
 
 `İşte CloudUP Bot için bildir! Bir sorun var ve ya talebinde bulunmaktan çekinmeyin!`
 
-`Discord.js olarak sunulmuştur. Gerçeği ile alakası olmamaktadır. Resmi bot Python olarak sunulmaktadır.`
+`Discord.js çalışma örneği olarak sunulmuştur.  Resmi bot python yazılım dili olarak sunulmaktadır.`
 
 
 ## License
@@ -16,3 +16,8 @@
 
 
 **Daha fazla bilgi için:** [Buraya Tıkla](https://discord.gg/ja5PTUj).
+
+
+# Discord v12 Göre Editlenmiştir.
+
+`process.env.CLIENT_TOKEN` Çalıştırmak için => .env olan dosya içeriğine `CLIENT_TOKEN=TokenBuraya` gelecek şekilde koyunuz.
