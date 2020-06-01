@@ -14,7 +14,7 @@ module.exports = class {
      message.channel.send(new Discord.MessageEmbed()
       .setTitle(`Bir hata oldu!`)
       .setDescription('**__Senin suçun yok bilader.__**')
-      .setFooter(`${message.author.username}`,message.author.avatarURL())
+      .setFooter(`${message.author.username}`,message.author.avatarURL({ dynamic: true, size: 1024 }))
       .setColor('BLACK')).then(msg => {
     msg.delete({ timeout: 9000 })
   })
