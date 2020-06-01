@@ -22,7 +22,7 @@
     "npm": "6x"
   },
     "dependencies": {
-    "discord.js": "^11.6.3",
+    "discord.js": "^12.2.0",
     "djs-commands": "^1.2.2",
     "dotenv": "^8.2.0"
   }
