@@ -11,11 +11,13 @@ module.exports = class {
     }
    async run(client, message, args) {
      
-     message.channel.sendEmbed(new Discord.RichEmbed()
+     message.channel.send(new Discord.MessageEmbed()
       .setTitle(`Bir hata oldu!`)
-      .setDescription(''+ message.author +' **__Senin suçun yok bilader.__**')
-      .setFooter(`${message.author.username}`,message.author.avatarURL)
-      .setColor('BLACK')).then(m => m.delete(14000))
+      .setDescription('**__Senin suçun yok bilader.__**')
+      .setFooter(`${message.author.username}`,message.author.avatarURL())
+      .setColor('BLACK')).then(msg => {
+    msg.delete({ timeout: 9000 })
+  })
      
    }
 }
