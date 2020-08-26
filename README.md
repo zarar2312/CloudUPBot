@@ -1,6 +1,6 @@
 # CloudUP Javascript Edition
 
-## Direkt Davet: https://discordapp.com/oauth2/authorize?client_id=704392637351723038&scope=bot&permissions=805315704
+## Direkt Davet: [Buraya Tıkla](https://discordapp.com/oauth2/authorize?client_id=704392637351723038&scope=bot&permissions=805315704).
 `İşte CloudUP Bot için bildir! Bir sorun var ve ya talebinde bulunmaktan çekinmeyin!`
 
 `Discord.js çalışma örneği olarak sunulmuştur.  Resmi bot python yazılım dili olarak sunulmaktadır.`
