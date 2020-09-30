@@ -9,7 +9,7 @@ module.exports = class {
         this.alias = [""],// Daha farklı yazanlar için çeşitlendirme.
         this.usage = ""// Nasıl kullanılacağını girebilirsin.
     }
-   async run(client, message, args) {
+   async run(CloudUP, message, args) {
      
      message.channel.send(new Discord.MessageEmbed()
       .setTitle(`Bir hata oldu!`)
