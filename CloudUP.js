@@ -25,7 +25,7 @@ CloudUP.on("message", async (message) => {
 
     try{
 
-        cmd.run(client,message,args)
+        cmd.run(CloudUP,message,args)
 
     }catch(e){
         console.log(e)
